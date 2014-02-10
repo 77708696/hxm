@@ -40,7 +40,7 @@ public class config {
 		while(en.hasMoreElements()){
 			String key = (String) en.nextElement();
 			 String Property = props.getProperty (key);
-             System.out.println("key:" + key+Property);
+             System.out.println("key:" + key + ", value: "+Property);
             
 		}
 		
